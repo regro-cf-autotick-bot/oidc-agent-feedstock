@@ -1,5 +1,5 @@
 {% set name = "oidc-agent" %}
-{% set version = "4.0.2" %}
+{% set version = "4.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,7 @@ package:
 
 source:
   url: https://github.com/indigo-dc/oidc-agent/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: f5663ee868eb615c59d34fb59c3c0efb639108d7ff6fedc5a6573f09fac376b9
-  patches:
-    - 0001-Fix-compiler-variables.patch
-    - 0002-Try-to-fix-macOS.patch
+  sha256: c8c2cb6c70e4e74a2be452d6238171947fab2da7920308f11c9bbe39669f4850
 
 build:
   skip: true  # [win]
