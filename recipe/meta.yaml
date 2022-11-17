@@ -20,6 +20,7 @@ requirements:
     - pkg-config
     - sed
     - help2man
+    - sysroot_linux-64 2.17  # [linux64]
   host:
     - libsodium
     - libcurl
@@ -28,6 +29,7 @@ requirements:
     - libsecret
     - glib
     - argp-standalone  # [osx]
+    - zlib
 
 test:
   commands:
