@@ -5,6 +5,7 @@ export LD_LIBRARY_PATH=$PREFIX/lib
 
 declare -a ARGS
 ARGS+=("CC=${CC}")
+ARGS+=("CXX=${CXX}")
 ARGS+=("LINKER=${CC}")
 ARGS+=("PREFIX=${PREFIX}")
 ARGS+=("BIN_PATH=${PREFIX}")
