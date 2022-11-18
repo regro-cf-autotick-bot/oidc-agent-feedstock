@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 set -x
 
-export LD_LIBRARY_PATH=$PREFIX/lib
-export DYLD_FALLBACK_LIBRARY_PATH=$PREFIX/lib
-
 declare -a ARGS
 ARGS+=("CC=${CC}")
 ARGS+=("CXX=${CXX}")

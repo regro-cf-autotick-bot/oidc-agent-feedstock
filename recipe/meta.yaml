@@ -12,6 +12,7 @@ source:
     - 0001-Disable-oidc-prompt.patch
     - 0002-Fix-macos-build.patch
     - 0003-Use-pkg-config-to-find-more-libraries.patch
+    - 0004-Use-LDFLAGS-for-linking-on-macOS.patch
 
 build:
   skip: true  # [win]
