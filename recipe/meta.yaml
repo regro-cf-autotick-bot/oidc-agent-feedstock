@@ -38,7 +38,6 @@ requirements:
 test:
   commands:
     - oidc-agent --help
-    - oidc-agent-server --help
     - oidc-gen --help
     - oidc-add --help
     - oidc-token --help
