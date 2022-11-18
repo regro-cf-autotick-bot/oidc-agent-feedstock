@@ -10,6 +10,7 @@ source:
   sha256: c8c2cb6c70e4e74a2be452d6238171947fab2da7920308f11c9bbe39669f4850
   patches:
     - 0001-Disable-oidc-prompt.patch
+    - 0002-Fix-macos-build.patch
 
 build:
   skip: true  # [win]
