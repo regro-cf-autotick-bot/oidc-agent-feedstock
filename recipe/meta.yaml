@@ -11,6 +11,7 @@ source:
   patches:
     - 0001-Disable-oidc-prompt.patch
     - 0002-Fix-macos-build.patch
+    - 0003-Use-pkg-config-to-find-more-libraries.patch
 
 build:
   skip: true  # [win]
