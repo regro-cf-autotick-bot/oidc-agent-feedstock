@@ -52,7 +52,7 @@ about:
   home: https://indigo-dc.gitbook.io/oidc-agent/
   license: MIT
   license_file: LICENSE
-  summary: 'Tools to manage OpenID Connect tokens from the command line'
+  summary: Tools to manage OpenID Connect tokens from the command line
   doc_url: https://indigo-dc.gitbook.io/oidc-agent/
   dev_url: https://github.com/indigo-dc/oidc-agent/
 
