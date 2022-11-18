@@ -13,6 +13,7 @@ source:
     - 0002-Fix-macos-build.patch
     - 0003-Use-pkg-config-to-find-more-libraries.patch
     - 0004-Use-LDFLAGS-for-linking-on-macOS.patch
+    - 0005-Set-install_name-for-liboidc-agent.4.dylib-on-macOS.patch
 
 build:
   skip: true  # [win]
